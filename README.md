@@ -2,6 +2,12 @@
 
 This is a comprehensive Task Management application built with React. It allows users to manage their daily tasks efficiently by adding, deleting, and marking tasks as completed.
 
+## How to start
+
+-   ### `npm i` or `npm install`
+    -   to install all the required dependencies
+    -   use the scripts provided in the scripts section to run on dev or build the application `npm start` and `npm build`
+
 ## Features
 
 -   **Component Creation**
