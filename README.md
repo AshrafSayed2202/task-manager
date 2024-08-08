@@ -1,6 +1,46 @@
-# Getting Started with Create React App
+# Task Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a comprehensive Task Management application built with React. It allows users to manage their daily tasks efficiently by adding, deleting, and marking tasks as completed.
+
+## Features
+
+-   **Component Creation**
+
+    -   Functional Components: Task input form
+    -   Class Components: Task list and state management
+    -   Reusable Components: Task item
+
+-   **State Management**
+
+    -   State in Class Components: Manage the list of tasks
+    -   Adding Tasks: Functionality to add new tasks to the list
+    -   Deleting Tasks: Functionality to delete tasks from the list
+    -   Marking Tasks as Completed: Checkbox to mark tasks as completed
+
+-   **Props and Behavior Control**
+
+    -   Pass props from the parent component to the task item component to display task details
+    -   Use props to control the behavior of the task item component
+
+-   **Lists and Keys**
+    -   Use the map function to render the list of tasks dynamically
+
+## Project Structure
+
+```plaintext
+task-manager/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── TaskForm.js
+│   │   ├── TaskList.js
+│   │   └── TaskItem.js
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── package.json
+└── README.md
 
 ## Available Scripts
 
@@ -39,32 +79,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
