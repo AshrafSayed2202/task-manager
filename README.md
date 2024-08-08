@@ -6,7 +6,7 @@ This is a comprehensive Task Management application built with React. It allows 
 
 -   ### `npm i` or `npm install`
     -   to install all the required dependencies
-    -   use the scripts provided in the scripts section to run on dev or build the application `npm start` and `npm build`
+    -   use `npm start` to run the project on localhost via your browser
 
 ## Features
 
@@ -30,22 +30,6 @@ This is a comprehensive Task Management application built with React. It allows 
 
 -   **Lists and Keys**
     -   Use the map function to render the list of tasks dynamically
-
-## Project Structure
-
-task-manager/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── TaskForm.js
-│ │ ├── TaskList.js
-│ │ └── TaskItem.js
-│ ├── App.js
-│ ├── index.css
-│ └── index.js
-├── package.json
-└── README.md
 
 ## Available Scripts
 
